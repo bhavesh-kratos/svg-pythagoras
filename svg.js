@@ -2,8 +2,7 @@
 function makeDraggable(evt) {
     let points = ['P1', 'P2', 'P3', 'P4'];
     let lines = ['L1', 'L2', 'L3', 'L4'];
-    let svg = evt.target;
-    // console.log('mouse position')
+    let svg = evt.target;    
     svg.addEventListener('mousedown', startDrag);
     svg.addEventListener('mousemove', drag);
     svg.addEventListener('mouseup', endDrag);
@@ -180,8 +179,7 @@ function makeDraggable(evt) {
                 maxX = 0
                 minY = -cy
                 maxY = 300 - cy
-            }
-            console.log('heree offset', offset, transform, { cx, cy })
+            }            
             appendHighlighters()
         }
     }
@@ -199,8 +197,7 @@ function makeDraggable(evt) {
             else if (dx > maxX) { dx = maxX; }
             if (dy < minY) { dy = minY; }
             else if (dy > maxY) { dy = maxY; }
-            delta = dx || dy;
-            console.log('dxx', dx, dy)
+            delta = dx || dy;            
             selectedPointElement.setAttribute('opacity', 1)
             // move other points, lines, highlight
             setHiglighterCoordinates();

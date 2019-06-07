@@ -1,3 +1,4 @@
+console.log('heree')
 window.onload = function () {
     document.getElementById("text").addEventListener("click", generateSquare);
 
