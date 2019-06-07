@@ -5,4 +5,4 @@
 
 ### How to run
 
-* Simple open main.html 
+* Just open main.html and you're good to go.
