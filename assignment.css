@@ -1,0 +1,12 @@
+button{
+    border: none;
+    background: white;
+    color: dodgerblue;
+    font-size: 1.5em;
+}
+
+button:hover{
+    background: none;
+    border: none;
+    color: darkcyan;    
+}
