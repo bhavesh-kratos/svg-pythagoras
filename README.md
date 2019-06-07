@@ -7,4 +7,4 @@
 ### How to run
 
 * Just run a static server and open main.html and you're good to go.
-
+* Or you can checkout at: https://bp-projects.firebaseapp.com/project

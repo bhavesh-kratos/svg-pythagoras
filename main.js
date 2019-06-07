@@ -1,8 +1,8 @@
-console.log('heree')
 window.onload = function () {
     document.getElementById("text").addEventListener("click", generateSquare);
 
     let squareSVG = document.getElementById("squareSVG");
+    console.log('here-->', squareSVG)
     let svgDoc = squareSVG.contentDocument;
     let timeOut;
 
