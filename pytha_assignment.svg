@@ -25,6 +25,6 @@
   }  
   </style>
   <!-- <use xlink:href=".draggable" /> -->
-  <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="square-clone.css" type="text/css"/>
-  <script xlink:href="assign.js" />
+  <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="svg.css" type="text/css"/>
+  <script xlink:href="svg.js" />
 </svg>
