@@ -6,5 +6,5 @@
 
 ### How to run
 
-* Just open main.html and you're good to go.
+* Just run a static server and open main.html and you're good to go.
 
